@@ -1,0 +1,72 @@
+/* Une carte motif */
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  border: 2px solid lightseagreen;
+
+  .picture {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+}
+
+/* Motifs sur les cartes */
+.picture1 {
+  background-image: url(./cards.png);
+  background-position-y: 0px;
+}
+.picture2 {
+  background-image: url(./cards.png);
+  background-position-y: -100px;
+}
+.picture3 {
+  background-image: url(./cards.png);
+  background-position-y: -201px;
+}
+.picture4 {
+  background-image: url(./cards.png);
+  background-position-y: -301px;
+}
+.picture5 {
+  background-image: url(./cards.png);
+  background-position-y: -401px;
+}
+.picture6 {
+  background-image: url(./cards.png);
+  background-position-y: -496px;
+}
+.picture7 {
+  background-image: url(./cards.png);
+  background-position-y: -601px;
+}
+.picture8 {
+  background-image: url(./cards.png);
+  background-position-y: -701px;
+}
+.picture9 {
+  background-image: url(./cards.png);
+  background-position-y: -801px;
+}
+.picture10 {
+  background-image: url(./cards.png);
+  background-position-y: -901px;
+}
+.picture11 {
+  background-image: url(./cards.png);
+  background-position-y: -1001px;
+}
+.picture12 {
+  background-image: url(./cards.png);
+  background-position-y: -1101px;
+}
+.picture13 {
+  background-image: url(./cards.png);
+  background-position-y: -1198px;
+}
+.picture14 {
+  background-image: url(./cards.png);
+  background-position-y: -1301px;
+}

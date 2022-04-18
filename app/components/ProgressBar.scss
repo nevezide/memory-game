@@ -1,0 +1,22 @@
+/* Style de la barre d'écoulement du temps */
+progress { 
+  /* Réinitialisation du style du navigateur :
+     dit au navigateur de ne pas appliquer son style par défaut
+   */
+  -webkit-appearance: none;
+  appearance: none;
+
+  width: 80%;
+
+  /* Style du conteneur de la barre d'écoulement */
+  &::-webkit-progress-bar {
+    background-color: #EEEEEE;
+    border-radius: 2px;
+  }
+
+  /* Style du remplissage de la barre d'écoulement */
+  &[value]::-webkit-progress-value {
+    background-color: red;
+    border-radius: 2px;
+  }
+}

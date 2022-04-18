@@ -1,0 +1,10 @@
+{
+  "type": ["object"],
+  "properties": {
+    "gameTime": {
+      "type": ["number"]
+    }
+  },
+  "required": ["gameTime"],
+  "additionalProperties": false
+}
