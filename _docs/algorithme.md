@@ -1,3 +1,3 @@
 # Algorithme
 
-![Algorithme](algorithme.png)
+![Algorithme](Algorithme.png)
