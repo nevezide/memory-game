@@ -1,0 +1,24 @@
+Bonnes pratiques frontend
+-------------------------
+-> Composants sans placement, ni taille qui prend toute la largeur de son conteneur par défaut
+-> Un layout avec des panels avec le positionnement et taille des composants
+
+NOTES
+-----
+-> Pour savoir où mettre tel ou tel élément (ex: le timer),
+se demander qui va s'en servir ?
+Si cela sert à plusieurs endroits dans l'application, il doit se trouver à un haut niveau
+
+Exemples de storybook
+--------------------
+https://storybook.staging-softwares.valwin.fr/?path=/story/example-valwinfactoarea--without-height
+https://www.welcome-ui.com/
+
+
+TODO
+----
+-> Déplacer le timer de la progress bar et la bouger dans le GameControler
+-> Dans les composants, virer les styles de position et deplacements
+-> Ajouter un panel et un layout au niveau des écrans
+-> Ajouter un storybook
+-> Mise en place de Docker (dev avec compose et build & run production)
